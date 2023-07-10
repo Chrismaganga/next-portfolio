@@ -1,4 +1,8 @@
+
 import Header from "../../components/Header";
+
+import Footer from "../../components/Footer";
+
 
 export default function Home() {
   return (
@@ -11,9 +15,9 @@ export default function Home() {
       overflow-y-auto
       "
       >
-      <Header>  
-        BLOG
+      <Header className="gap-6 text-2xl items-center justify-between p-4 w-full h-screen"> 
 
+       <Footer/>
       </Header>
       </div>
   )

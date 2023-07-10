@@ -46,11 +46,11 @@ export default function Sidebar({ children }: Props) {
         </div>
       </Box>
       <Box className="overflow-y-auto h-screen">
-      {/* <Library /> */}
+     {/* <libray/> */}
       </Box>
 
-      
-    </div>
+      </div>
+    
     <main className="h-full flex-1 overflow-y-auto py-2">{children}</main>
   </div>
       
